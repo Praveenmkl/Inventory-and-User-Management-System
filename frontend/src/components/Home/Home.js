@@ -9,8 +9,11 @@ function Home() {
       <p style={{ margin: '1rem 0', color: '#64748b' }}>
         Welcome! Click below to add new inventory items.
       </p>
-      <button className="btn btn-primary" onClick={() => navigate('/add')}>
+      <button className="btn btn-primary" onClick={() => navigate('/addItem')}>
         Add New Item
+      </button> <br/><br/>
+      <button className="btn btn-primary" onClick={() => navigate('/displayItem')}>
+        Display Item
       </button>
     </div>
   );
